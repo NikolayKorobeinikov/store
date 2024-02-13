@@ -1,0 +1,34 @@
+.stuff {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.product__item {
+  display: flex;
+  align-items: center;
+  width: 600px;
+//   border: 1px solid black;
+  gap: 20px;
+}
+
+.product__desc {
+  display: flex;
+  flex-direction: column;
+}
+
+.picture {
+  width: 250px;
+  height: 280px;
+}
+
+.btn {
+  margin-top: 10px;
+  width: 55px;
+  height: 30px;
+  border-radius: 18%;
+  background-color: grey;
+}

@@ -1,0 +1,46 @@
+.cartImg {
+    width: 250px;
+    height: 280px;
+}
+
+.basket__item {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cartItem {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.cartItem__desc {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.quantity {
+    // border: 1px solid black;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.btnAdd {
+    background-color: darkgray;
+    padding: 5px 10px;
+    border-radius: 30%;
+
+}
+
+.quantity {
+    display: flex;
+}
+
+.add {
+    background-color: darkgray;
+    padding: 5px 10px;
+    border-radius: 30%;
+}
+
